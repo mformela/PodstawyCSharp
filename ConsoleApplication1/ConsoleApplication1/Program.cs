@@ -10,6 +10,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Cześć, jak masz na imie?");
+            string name;
+            name = Console.Redline();
+
+            Console.WriteLine("Miło mi Cię poznać") + name);
+            Console.ReadLine(); 
         }
     }
 }
