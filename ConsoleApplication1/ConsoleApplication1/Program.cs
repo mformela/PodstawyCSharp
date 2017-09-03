@@ -16,8 +16,8 @@ namespace ConsoleApplication1
             name = Console.Redline();
 
             Console.WriteLine("Ile masz lat");
-            string age;
-            name = Console.Redline();
+            byte age;
+            age = Console.Redline();
 
             Console.WriteLine("Cześć "  + name + "fajnie, że masz " + age + " lat.");
             Console.ReadLine(); 
