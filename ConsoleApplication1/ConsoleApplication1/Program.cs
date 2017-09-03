@@ -15,11 +15,11 @@ namespace ConsoleApplication1
             string name;
             name = Console.ReadLine();
 
-            Console.WriteLine("Ile masz lat");
+            Console.WriteLine("Ile masz lat?");
             string age;
             age = Console.ReadLine();
 
-            Console.WriteLine("Cześć "  + name + "fajnie, że masz " + age + " lat.");
+            Console.WriteLine("Cześć "  + name + " , fajnie, że masz " + age + " lat. :)");
             Console.ReadLine(); 
         }
     }
