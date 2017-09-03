@@ -13,11 +13,11 @@ namespace ConsoleApplication1
 
             Console.WriteLine("Cześć, jak masz na imie?");
             string name;
-            name = Console.Redline();
+            name = Console.Readline();
 
             Console.WriteLine("Ile masz lat");
             byte age;
-            age = Console.Redline();
+            age = Console.Readline();
 
             Console.WriteLine("Cześć "  + name + "fajnie, że masz " + age + " lat.");
             Console.ReadLine(); 
