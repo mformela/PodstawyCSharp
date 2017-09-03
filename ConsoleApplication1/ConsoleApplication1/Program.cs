@@ -15,7 +15,11 @@ namespace ConsoleApplication1
             string name;
             name = Console.Redline();
 
-            Console.WriteLine("Miło mi Cię poznać") + name);
+            Console.WriteLine("Ile masz lat");
+            string age;
+            name = Console.Redline();
+
+            Console.WriteLine("Cześć "  + name + "fajnie, że masz " + age + " lat.");
             Console.ReadLine(); 
         }
     }
